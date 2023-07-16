@@ -196,7 +196,7 @@ end
 function menu_json(menu_items, native)
     local menu = {
         type = "memo-history",
-        title = "History (memo)",
+        title = "历史记录",
         items = menu_items,
         selected_index = 1,
         on_close = {"script-message-to", script_name, "memo-clear"}
