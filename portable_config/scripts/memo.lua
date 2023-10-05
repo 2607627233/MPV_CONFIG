@@ -234,7 +234,7 @@ function has_protocol(path)
 end
 
 function menu_json(menu_items, page)
-    local title = (search_query or "History") .. ""
+    local title = (search_query or "History") .. " (memo)"
     if options.pagination or page ~= 1 then
         title = title .. " - Page " .. page
     end
