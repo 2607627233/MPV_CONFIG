@@ -1,1 +1,3 @@
 *.log
+portable_config/_cache/watch_later
+portable_config/_cache/shader
